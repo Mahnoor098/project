@@ -1,0 +1,101 @@
+.text{
+    position: absolute;
+    top: 35%;
+    left: 34%;
+}
+
+.imgback{
+    position: relative;
+    
+}
+
+
+
+@media screen and (max-width:1560px){
+    
+.text{
+    top: 22%;
+}
+
+    /* .text h1{
+        font-size: 28px;
+        font-weight: 700;
+        position: absolute;
+        right: 10%;
+        top: -3%;
+    }
+    .text p{
+        font-size: 12px;
+        width: 80%;
+        position: relative;
+        
+    } */
+}
+
+@media screen and (max-width:1230px){
+    
+    .text{
+        font-size:12px;
+        top: 22%;
+    }
+    .text h1{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:992px){
+    
+    .text{
+        width: 80%;
+        font-size:12px;
+        top: 23%;
+        position: relative;
+        left: 11%;
+    }
+    .text h1{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:940px){
+    
+    .text{
+        width: 80%;
+        font-size:10px;
+        top: 23%;
+        position: relative;
+        left: 11%;
+    }
+    .text h1{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .text{
+        font-size:12px;
+        width: 30%;
+        text-align: center;
+        position: relative;
+        left: 35%;
+        top: 9%;
+        /* position: relative;
+        left: 31%;
+        top: 35px; */
+    }
+    /* .text h1{
+        font-size: 12px;
+        font-weight: 700;
+        position: relative;
+        
+    }
+    .text p{
+        font-size: 12px;
+        width: 80%;
+    } */
+}
+
+@media screen and (max-width: 768px) {
+        .btn-size{
+            size: 2%;
+        }
+}
